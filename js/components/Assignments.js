@@ -19,8 +19,9 @@ export default {
             assignments: [
                 {name: "3rd Party Api Integration", complete: false, id: 1,},
                 { name: "PHP OOP", complete: false, id: 2 },
-                { name: "Vue JS initial", complete: false, id: 3 },
-                { name: "Blog site WP", complete: false, id: 4 },
+                { name: "Vue.JS Task Tracker", complete: true, id: 3 },
+                { name: "Laravel with MongoDB", complete: false, id: 4 },
+                { name: "C++ Problem Solving", complete: false, id: 5 },
             ],
             
         };
