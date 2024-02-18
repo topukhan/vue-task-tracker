@@ -18,13 +18,13 @@ export default {
     data() {
         return {
             assignments: [
-                { name: "3rd Party Api Integration", complete: false, id: 1, },
-                { name: "PHP OOP", complete: false, id: 2 },
-                { name: "Vue.JS Task Tracker", complete: true, id: 3 },
-                { name: "Laravel with MongoDB", complete: false, id: 4 },
-                { name: "C++ Problem Solving", complete: false, id: 5 },
+                {name: "3rd Party Api Integration", complete: false, id: 1, tag:'personal'},
+                { name: "PHP OOP", complete: false, id: 2, tag:'personal'},
+                { name: "Laravel with MongoDB", complete: false, id: 3, tag: 'work' },
+                { name: "C++ Problem Solving", complete: false, id: 4, tag: 'personal'},
+                { name: "Vue.JS Task Tracker", complete: false, id: 4, tag: 'personal'},
             ],
-
+            
         };
     },
 
@@ -43,7 +43,7 @@ export default {
         add(name) {
             this.assignments.push({
                 name: name,
-                complete: false,
+                complete: false, 
                 id: this.assignments.length + 1
             })
         }
